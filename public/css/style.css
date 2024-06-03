@@ -1,0 +1,49 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+#logo {
+    color: #0a0608;
+    text-decoration: none;
+    font-size: 30pt;
+    font-family: 'open sans';
+}
+#dot {
+    color: aqua;
+    text-decoration: none;
+    font-size: 60pt;
+}
+
+#navlinks {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    list-style: none;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    background-color: #a61462;
+}
+.navitem {
+    text-decoration: none;
+    color: black;
+}
+
+#hero {
+display: flex;
+}
+
+#hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#hero-img {
+    height: 120vh;
+}
