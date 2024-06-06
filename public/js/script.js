@@ -62,3 +62,37 @@ const bottle1 = {
    console.log('We did it!', i);
   }
   
+
+  // Functions
+// Defining a function
+function login(username, password) {
+  // validate username and password
+  if(!username || !password) {
+    return 'Username or password not provided';
+  }
+  // verify username and password
+if (username == 'Rutela' && password == '1234') {
+  return 'User is logged in';
+} else {
+  return 'Invalid username or password';
+}
+}
+// Invoking a function
+login('Rutela', );
+
+
+// Basic Arithmetic Operations
+11+12;
+1+0.5;
+43-12;
+45/7;
+5*3;
+14%3
+
+Math.round(45/24);
+Math.floor(45/24);
+45%24
+Math.random() * 1000;
+Math.max(34,32,37);
+2*(3+4)-5/2
+Number('2') + 2
