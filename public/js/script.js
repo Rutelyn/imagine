@@ -96,3 +96,43 @@ Math.random() * 1000;
 Math.max(34,32,37);
 2*(3+4)-5/2
 Number('2') + 2
+
+
+
+// Strings in JavaScript
+// Concatenation
+const firstname = 'Ruth';
+const middlename = 'Afi';
+const lastname = 'Agbozo';
+firstname +' ' + middlename +' ' + lastname;
+
+// Template literal
+`${firstname} ${middlename} ${lastname}`;
+
+
+// String Methods
+
+
+let fullName = "ruth afi agbozo"
+fullName.length
+
+for(let i =0; i< fullName.length; i++){
+  console.log(i)
+}
+
+fullName.toUpperCase()
+fullName.toLowerCase()
+fullName.charAt(9)
+fullName.slice(5,15)
+fullName.split("")
+fullName.replace("agbozo", "ahiabu")
+fullName.indexOf("afi")
+
+
+// String Conversion
+Number('3.243')
+parseInt('3.243')
+parseFloat('3.243')
+let amount = 18000
+console.log(`GHS${amount}`)
+amount.toString()
