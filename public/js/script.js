@@ -160,3 +160,49 @@ addParticipant('ruth.agbozo.93gmail.com')
 addParticipant();
 addParticipant('ruth.agbozo.93@gmail.com')
 participants;
+
+// Write a function that will take a user with firstame, lastname and return fullname;  
+
+function fullName(user) {
+  return {
+    ...user,
+    fullName: `${user.firstname} ${user.lastname}`
+  };
+}
+
+const user = {
+  firstname: 'Ruth',
+  lastname: 'Agbozo',
+}
+
+fullName(user);
+ 
+// Array Map
+const users = [
+  {firstname: 'Ruth', lastname: 'Agbozo'},
+  {firstname: 'Mawunya', lastname: 'Agbozo'},
+  {firstname: 'Nunana', lastname: 'Ahiabu'},
+  {firstname: 'Enyam', lastname: 'Ahaibu'},
+  {firstname: 'Samuel', lastname: 'Dodzi'},
+]
+users.map(fullName);
+
+
+// Square of Numbers
+function square(number) {
+  return number **2;
+}
+square(4);
+
+const numbers = [5,7,9,8];
+
+numbers.map(square);
+
+// Array filter
+
+
+function isEven(number) {
+  return number % 2 === 0;
+}
+isEven(4);
+numbers.filter(isEven);
