@@ -161,65 +161,65 @@ addParticipant();
 addParticipant('ruth.agbozo.93@gmail.com')
 participants;
 
-//Arrays in JavaScript
-const users = [
-  {
-    username: 'rutela',
-    password: '0605',
-    email: 'ruth.agbozo.93@gmail.com'
-  },
-
-  {
-    username: 'nunana',
-    password: '2208',
-    email: 'rutelaenterprise17@gmail.com'
-  },
-
-];
-users;
-
-// // Write a function that will take a user with firstame, lastname and return fullname;  
-
-// function fullName(user) {
-//   return {
-//     ...user,
-//     fullName: `${user.firstname} ${user.lastname}`
-//   };
-// }
-
-// const user = {
-//   firstname: 'Ruth',
-//   lastname: 'Agbozo',
-// }
-
-// fullName(user);
- 
-// // Array Map
+// //Arrays in JavaScript
 // const users = [
-//   {firstname: 'Ruth', lastname: 'Agbozo'},
-//   {firstname: 'Mawunya', lastname: 'Agbozo'},
-//   {firstname: 'Nunana', lastname: 'Ahiabu'},
-//   {firstname: 'Enyam', lastname: 'Ahaibu'},
-//   {firstname: 'Samuel', lastname: 'Dodzi'},
-// ]
-// users.map(fullName);
+//   {
+//     username: 'rutela',
+//     password: '0605',
+//     email: 'ruth.agbozo.93@gmail.com'
+//   },
+
+//   {
+//     username: 'nunana',
+//     password: '2208',
+//     email: 'rutelaenterprise17@gmail.com'
+//   },
+
+// ];
+// users;
+
+// Write a function that will take a user with firstame, lastname and return fullname;  
+
+function fullName(user) {
+  return {
+    ...user,
+    fullName: `${user.firstname} ${user.lastname}`
+  };
+}
+
+const user = {
+  firstname: 'Ruth',
+  lastname: 'Agbozo',
+}
+
+fullName(user);
+ 
+// Array Map
+const users = [
+  {firstname: 'Ruth', lastname: 'Agbozo'},
+  {firstname: 'Mawunya', lastname: 'Agbozo'},
+  {firstname: 'Nunana', lastname: 'Ahiabu'},
+  {firstname: 'Enyam', lastname: 'Ahaibu'},
+  {firstname: 'Samuel', lastname: 'Dodzi'},
+]
+users.map(fullName);
 
 
-// // Square of Numbers
-// function square(number) {
-//   return number **2;
-// }
-// square(4);
+// Square of Numbers
+function square(number) {
+  return number **2;
+}
+square(4);
 
-// const numbers = [5,7,9,8];
+const numbers = [5,7,9,8];
 
-// numbers.map(square);
+numbers.map(square);
 
-// // Array filter
+// Array filter
 
 
-// function isEven(number) {
-//   return number % 2 === 0;
-// }
-// isEven(4);
-// numbers.filter(isEven);
+function isEven(number) {
+  return number % 2 === 0;
+}
+isEven(4);
+numbers.filter(isEven);
